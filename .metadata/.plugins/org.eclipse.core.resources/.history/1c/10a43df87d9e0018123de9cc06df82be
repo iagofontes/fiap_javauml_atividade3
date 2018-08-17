@@ -1,0 +1,35 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
+
+public class Exercicio3 {
+
+	public static Integer max = 1000000;
+	
+	public static void main(String[] args) {
+		LinkedList<Integer> ints = new LinkedList<>();
+
+	}
+	
+	public static void popularLista(Collection<Integer> lista) {
+		Integer i = 1;
+		while(i <= max) {
+			lista.add(i);
+			i++;
+		}		
+	}
+	
+	public static void popularArrayList(ArrayList<Integer> lista) {
+		
+
+	}
+	
+	public static void popularLinkedList(LinkedList<Integer> lista) {
+		
+	}
+
+}

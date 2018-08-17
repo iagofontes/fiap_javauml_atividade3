@@ -1,0 +1,15 @@
+package Exercicio5;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+		ManipularArquivo ma = new ManipularArquivo();
+		//System.out.println(ma.codificarCaracter('a'));
+		if(ma.salvarMensagem("Oi, estou aqui.")) {
+			System.out.println("Mensagem codificada com sucesso.");
+		} else {
+			System.out.println("Problemas ao manipular mensagem.");
+		}
+	}
+
+}

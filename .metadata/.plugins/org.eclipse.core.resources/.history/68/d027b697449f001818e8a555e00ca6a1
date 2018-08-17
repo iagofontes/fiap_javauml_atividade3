@@ -1,0 +1,10 @@
+package Exercicio5;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+		ManipularArquivo ma = new ManipularArquivo();
+		System.out.println(ma.codificarCaracter('a'));
+	}
+
+}

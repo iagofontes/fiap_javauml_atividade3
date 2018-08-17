@@ -1,0 +1,23 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static void popularLista(Object lista) {
+		
+	}
+	
+	public static void popularArrayList(ArrayList<Integer> lista) {
+		
+	}
+	
+	public static void popularLinkedList(LinkedList<Integer> lista) {
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package Exercicio4;
+
+import java.util.ArrayList;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		ArrayList<Pessoa> pessoas = new ArrayList<>();
+		popularLista(pessoas);
+		
+	}
+	
+	public static void popularLista(ArrayList<Pessoa> p) {
+		
+		p.add(new Pessoa("João Garcia", 20, 'M', "AIK Enterprises"));
+		p.add(new Pessoa("Maria Martins", 44, 'F', "Simples"));
+		p.add(new Pessoa("Henrique Fernando", 43, 'M', "AIK Enterprises"));
+		p.add(new Pessoa("Inácio Luís", 33, 'M', "Magazine André"));
+		p.add(new Pessoa("Fernando Ferreira", 87, 'M', "Casas Recife"));
+		
+	}
+
+}

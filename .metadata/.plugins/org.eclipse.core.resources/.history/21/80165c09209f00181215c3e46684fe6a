@@ -1,0 +1,9 @@
+package Exercicio5;
+
+public class ManipularArquivo {
+	
+	public ManipularArquivo() {
+		
+	}
+
+}

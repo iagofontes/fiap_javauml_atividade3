@@ -1,0 +1,70 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Stack;
+import java.util.WeakHashMap;
+
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
+
+public class Exercicio3 {
+
+	public static Integer max = 1000000;
+	public static ArrayList<Integer> arrayList = new ArrayList<>();
+	public static LinkedList<Integer> linkedList = new LinkedList<>();
+	public static Stack<Integer> stack = new Stack<>();
+	public static HashSet<Integer> hashSet = new HashSet<>();
+	public static HashMap<Integer, Integer> hashMap = new HashMap<>();
+	public static WeakHashMap<Integer, Integer> weakHashMap = new WeakHashMap<>();
+	
+	
+	public static void main(String[] args) {
+		popularLista(arrayList);
+		popularLista(linkedList);
+		popularLista(stack);
+		popularLista(hashSet);
+		popularMap(hashMap);
+		popularMap(weakHashMap);
+
+	}
+	
+	public static String compareArrayListToLinkedList(ArrayList<Integer> arr, LinkedList<Integer> link) {
+		
+		
+		
+		
+		return "";
+	}
+	
+	public static void popularLista(Collection<Integer> lista) {
+		Integer i = 1;
+		while(i <= max) {
+			lista.add(i);
+			i++;
+		}
+	}
+	
+	public static boolean procurarNaLista(Collection<Integer> lista) {
+		boolean find = false; 
+		lista
+			.stream()
+			.forEach((Integer element) -> {
+				if(element == 500000) {
+					find = true;	
+				}
+			});
+		return find;
+	}
+	
+	public static void popularMap(Map<Integer, Integer> lista) {
+		Integer i = 1;
+		while(i <= max) {
+			lista.put(i, i);
+			i++;
+		}
+	}
+}

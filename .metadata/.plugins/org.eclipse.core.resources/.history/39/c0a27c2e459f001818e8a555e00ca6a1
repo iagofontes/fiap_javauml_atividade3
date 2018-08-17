@@ -1,0 +1,23 @@
+package Exercicio5;
+
+public class ManipularArquivo {
+	
+	public boolean gravarmensagem() {
+		return false;
+	}
+	
+	public String codificarMensagem(String mensagem) {
+		
+		StringBuilder sb = new StringBuilder(mensagem);
+		for(int i = 0; i < mensagem.length(); i++) {
+			sb.setCharAt(i, this.codificarCaracter(sb.charAt(i)));
+		}
+		return sb.toString();
+	}
+	
+	public char codificarCaracter(Character caracter) {
+		int ch = caracter.charValue();
+		return ((char)(++ch));
+	}
+
+}

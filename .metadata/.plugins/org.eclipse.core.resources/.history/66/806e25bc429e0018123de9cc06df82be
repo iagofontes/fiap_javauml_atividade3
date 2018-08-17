@@ -1,0 +1,28 @@
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Exercicio2 {
+
+	
+	
+	public static void main(String[]args) {
+		
+	
+		/*LocalDateTime data = LocalDateTime.parse(
+				"10/09/2012 12:00", 
+				DateTimeFormatter
+					.ofPattern("dd/MM/yyyy"));*/
+		LocalDateTime dt = LocalDateTime.of(2012, 8, 10, 12, 00);
+		//"10/09/2012 12:00"
+		//LocalDateTime dt = LocalDateTime.
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd H:ss");
+		System.out.println(dt.format(dtf));
+		
+	
+	}
+	
+	
+	
+	
+}

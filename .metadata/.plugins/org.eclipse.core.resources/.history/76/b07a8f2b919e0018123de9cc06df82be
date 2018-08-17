@@ -1,0 +1,17 @@
+package Exercicio4;
+
+import java.util.ArrayList;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		ArrayList<Pessoa> pessoas = new ArrayList<>();
+	}
+	
+	public static void popularLista(ArrayList<Pessoa> p) {
+		
+		p.add(new Pessoa("João Garcia", 20, 'M', "AIK Enterprises"));
+		
+	}
+
+}

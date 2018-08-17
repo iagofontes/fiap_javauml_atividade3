@@ -1,0 +1,14 @@
+package Exercicio5;
+
+public class ManipularArquivo {
+	
+	
+	public boolean gravarmensagem() {
+		return false;
+	}
+	
+	public String codificarMensagem(String mensagem) {
+		
+	}
+
+}
